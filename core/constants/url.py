@@ -1,0 +1,1 @@
+LOGIN_URL = 'https://demo.guru99.com/test/newtours/'

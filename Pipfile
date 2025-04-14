@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+webdriver_manager = '==1.7'
+Faker = '==2.0.2'
+delayed-assert = '==0.3.5'
+behave = "*"
+allure-behave = "*"
+selenium = "*"
+
+[scripts]
+test = "behave"
